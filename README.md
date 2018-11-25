@@ -1,0 +1,2 @@
+# Slots
+Slot collection
