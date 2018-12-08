@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 23f228bcfa1b24a4681256f8e927356c
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotGame1.unity
+    guid: 6fb3a536c92cd0945a35902840a90afc
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotGame2.unity
+    guid: b2da0753b3dc947d9a9ce5b584538d7c
+  - enabled: 1
+    path: Assets/Z_Game_1/Minigame/SG2Mini.unity
+    guid: ba25376920164334387726b07cffd04b
+  - enabled: 1
+    path: Assets/Scenes/LoadingVideo.unity
+    guid: 23dd4a0325ba14ed0acf8f45cdbf9c6c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotGame4.unity
+    guid: d05f430d3bc7be240bac20c72fdfac77
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotMegaBucks.unity
+    guid: b440f2dc50ad49e49a422803945e85f3
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotTopDollar.unity
+    guid: 95fa26b9921df72428a776077ea841c3
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotMegaBucks1.unity
+    guid: a82cec6f7accd7b48a783319b239599b
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotTopDollarRound.unity
+    guid: 759c7ff3e4bd2a8469fe12c6a5062808
+  - enabled: 1
+    path: Assets/Z_Game_1/SlotCat.unity
+    guid: e48d6af600dd7d6479bbfb047bc628fd
+  m_configObjects: {}

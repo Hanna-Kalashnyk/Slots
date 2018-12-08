@@ -1,0 +1,13 @@
+{
+"companyName": "jkmaks",
+"productName": "Majestic Slots",
+"dataUrl": "facebook.data.unityweb",
+"asmCodeUrl": "facebook.asm.code.unityweb",
+"asmMemoryUrl": "facebook.asm.memory.unityweb",
+"asmFrameworkUrl": "facebook.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

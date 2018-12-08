@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "majestic-slots-facebook", "Assembly-CSharp.csproj", "{501C8265-A2C6-2D7F-E8F9-5E80E6725883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "majestic-slots-facebook", "Assembly-CSharp-firstpass.csproj", "{649591FD-191C-DC05-B087-61D8ED124D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "majestic-slots-facebook", "Assembly-CSharp-Editor-firstpass.csproj", "{7E817ED2-6B5F-E254-1FB6-6CC2C1B50492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "majestic-slots-facebook", "Assembly-CSharp-Editor.csproj", "{8194E192-404C-00AF-4B7E-9F56C475691C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501C8265-A2C6-2D7F-E8F9-5E80E6725883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501C8265-A2C6-2D7F-E8F9-5E80E6725883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501C8265-A2C6-2D7F-E8F9-5E80E6725883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501C8265-A2C6-2D7F-E8F9-5E80E6725883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649591FD-191C-DC05-B087-61D8ED124D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649591FD-191C-DC05-B087-61D8ED124D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649591FD-191C-DC05-B087-61D8ED124D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649591FD-191C-DC05-B087-61D8ED124D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E817ED2-6B5F-E254-1FB6-6CC2C1B50492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E817ED2-6B5F-E254-1FB6-6CC2C1B50492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E817ED2-6B5F-E254-1FB6-6CC2C1B50492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E817ED2-6B5F-E254-1FB6-6CC2C1B50492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8194E192-404C-00AF-4B7E-9F56C475691C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8194E192-404C-00AF-4B7E-9F56C475691C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8194E192-404C-00AF-4B7E-9F56C475691C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8194E192-404C-00AF-4B7E-9F56C475691C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
