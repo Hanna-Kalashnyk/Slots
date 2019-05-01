@@ -60,11 +60,14 @@ namespace Elona.Slot {
 		public CanvasGroup cg;
 		public GameObject mold;
 
-		protected void Awake() {
+        
+
+        protected void Awake() {
 			slot.callbacks.onRoundComplete.AddListener(CheckLevelUp);
 			slot.callbacks.onRoundComplete.AddListener(Save);
 			slot.callbacks.onReelStart.AddListener(OnReelStart);
 			slot.callbacks.onProcessHit.AddListener(OnProcessHit);
+
 			Initialize();
 		}
 

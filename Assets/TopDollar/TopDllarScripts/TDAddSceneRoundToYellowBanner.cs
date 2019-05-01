@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class TDAddSceneRoundToYellowBanner : MonoBehaviour {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("SlotMegaBucks1");
+      //  SceneManager.LoadScene("SlotMegaBucks1");
+        SceneManager.LoadScene("SlotTopDollarButtons");
     }
 
     public void TDloadSceneRound()

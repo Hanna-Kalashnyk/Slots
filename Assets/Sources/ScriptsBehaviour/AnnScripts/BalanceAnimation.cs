@@ -22,19 +22,21 @@ public class BalanceAnimation : MonoBehaviour {
             dublicateBalance = PayTableBehaviour.dublicateBalance;
             print("blaAnim");
             n = n + 1;
-            tween(dublicateBalance);
+
+            DOTween.To(() => DublicateBalance.dublicateBalance, x => DublicateBalance.dublicateBalance = x, PlayerPrefs.GetInt(Constants.PLAYER_BALANCE), 2.8f);
+          //  tween(dublicateBalance);
            PayTableBehaviour.dublicateBalance = PlayerPrefs.GetInt(Constants.PLAYER_BALANCE);
 
 
         }
 
     }
-    private void tween(int dublicateBalance)
-    {
+  //  private void tween(int dublicateBalance)
+  //  {
         // if (_moneyTween != null && _moneyTween.IsPlaying()) _moneyTween.Complete();
         // _moneyTween =
-        DOTween.To(() => DublicateBalance.dublicateBalance, x => DublicateBalance.dublicateBalance = x, PlayerPrefs.GetInt(Constants.PLAYER_BALANCE), 2.8f);
+   //     DOTween.To(() => DublicateBalance.dublicateBalance, x => DublicateBalance.dublicateBalance = x, PlayerPrefs.GetInt(Constants.PLAYER_BALANCE), 2.8f);
             //.OnComplete(() => { PayTableBehaviour.dublicateBalance = PlayerPrefs.GetInt(Constants.PLAYER_BALANCE); _moneyTween = null; });
-        print("blaTween");
-    }
+    //    print("blaTween");
+   // }
 }

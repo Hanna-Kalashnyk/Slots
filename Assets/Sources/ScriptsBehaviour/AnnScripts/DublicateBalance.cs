@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class DublicateBalance : MonoBehaviour
 {
-    private Tweener _moneyTween;
+    //private Tweener _moneyTween;
     //   [SerializeField]
     // public Text _balance;
 

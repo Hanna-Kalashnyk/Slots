@@ -10,11 +10,6 @@ public class MainMenuReturn : MonoBehaviour {
 		btn.onClick.AddListener(TaskOnClick);
 	}
 
-	// Update is called once per frame
-	void Update () {
-
-	}
-
 	void TaskOnClick(){		
 		SceneManager.LoadScene ("Lobby");
 	}

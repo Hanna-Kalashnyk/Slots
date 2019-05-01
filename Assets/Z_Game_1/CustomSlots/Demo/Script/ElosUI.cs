@@ -53,7 +53,9 @@ namespace Elona.Slot {
 		private Tweener _moneyTween;
 		private int lastBalance;
 
-		private Elos.Assets assets { get { return elos.assets; } }
+        private ElosUI uiOn;
+
+        private Elos.Assets assets { get { return elos.assets; } }
 		private Elos.ElonaSlotData data { get { return elos.data; } }
 		private void OnEnable() { assets.bgm.Play(); }
 
@@ -68,7 +70,11 @@ namespace Elona.Slot {
             _payTableButton.onClick.AddListener(TogglePayTable);
 			_buyTableButton.onClick.AddListener(ToggleBuyTable);
 			currentSpingNumber = 0;
-		}
+
+
+            uiOn = GetComponent<ElosUI>();
+            uiOn.enabled = true;
+        }
 
 		public void RefreshExp() {
 			//textLevel.text = "" + data.lv;

@@ -3,41 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TopDollarSliding : MonoBehaviour {
-
-    int n;
+    private float t;
+    private int n;
     // Use this for initialization
     void Start()
     {
-        
+        t = Time.time;
+        n = 0;
     }
 
     void Update()
     {
+        n = (int)((Time.time-t) / 30);
 
-            if (Time.time <=  2)
+        if (Time.time-t <= n*30 + 3)
             {
-                transform.position += Vector3.right * 40f * Time.deltaTime;
-                transform.localScale += new Vector3(0.03f, 0.03f, 0.03f);
+                transform.position += Vector3.right * 1.4f * Time.deltaTime;
+           
             }
             else
-             if (Time.time <= 4)
+             if (Time.time - t >= n * 30 + 5 && Time.time - t <= n * 30 + 8)
             {
-                transform.position += Vector3.right * 40f * Time.deltaTime;
-                transform.localScale -= new Vector3(0.3f, 0.03f, 0.03f);
-            }
-            else
-            if (Time.time <=  6)
-            {
-                transform.position += Vector3.left * 40f * Time.deltaTime;
-                transform.localScale += new Vector3(0.03f, 0.03f, 0.03f);
-
-            }
-            else
-            if (Time.time<=  8)
-            {
-                transform.position += Vector3.left * 40f * Time.deltaTime;
-                transform.localScale -= new Vector3(0.03f, 0.03f, 0.3f);
-
+                transform.position += Vector3.left * 1.4f * Time.deltaTime;
+           
             }
     }
 }

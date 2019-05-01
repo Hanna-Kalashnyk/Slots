@@ -22,7 +22,7 @@ public class TopDolarEmitter : MonoBehaviour
             if (Time.timeSinceLevelLoad <= n * 20 + 2)
             {
                 transform.position += Vector3.right * 1.5f * Time.deltaTime;
-              //  transform.localScale += new Vector3(0.03F,0.03F,0.03F);
+               // transform.localScale += new Vector3(0.03F,0.03F,0.03F);
             }
          /*   else
              if (Time.timeSinceLevelLoad <= n * 20 + 4)

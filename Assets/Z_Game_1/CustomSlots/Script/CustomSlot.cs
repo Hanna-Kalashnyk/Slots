@@ -15,9 +15,6 @@ namespace CSFramework
     /// </summary>
     public class CustomSlot : MonoBehaviour
     {
-        public Transform TopDolarPrefab;
-
-
         public enum State
         {
             NotStarted,
@@ -230,7 +227,7 @@ namespace CSFramework
                         }
                     }
 
-                    //>>>>>>>>>>>>>>Lemon animation Trigger at three sunrises in line
+                    //>>>>>>>>>>>>>>Lemon animation Trigger on at three sunrises in line
                     for (int m = 0; m < reels.Length - 2; m++)
                     {
                         for (int w = 0; w < reels[m].GetComponent<Reel>().symbolHolders.Count; w++)
@@ -241,7 +238,7 @@ namespace CSFramework
                                reels[m].symbolHolders[w].animator.SetTrigger("SunriseTrigger");
                                reels[m + 1].symbolHolders[w].animator.SetTrigger("SunriseTrigger");
                                reels[m + 2].symbolHolders[w].animator.SetTrigger("SunriseTrigger");
-                                print("blaSunriseTriggerOn");
+                              
                             }
 
                         }
@@ -249,7 +246,7 @@ namespace CSFramework
                     }
                     
 
-                    ///>>>>Switch scenes
+                    ///>>>>Switch scenes fron bokals to MegaBucks after 3 reels
                     int spinN = 0;
                     
                     if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("SlotGame4")&& (Elona.Slot.ElosUI.currentSpingNumber > 2 && (Elona.Slot.ElosUI.currentSpingNumber % 3) == 0)) 
@@ -258,8 +255,7 @@ namespace CSFramework
                         SceneManager.LoadScene("SlotMegaBucks");
                     }
  
-                // else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("SlotMegaBucks") && ((Elona.Slot.ElosUI.currentSpingNumber - spinN) % 1) == 0)                    {
-                 //       SceneManager.LoadScene("SlotTopDollar");                    }
+              
                     break;
                    
             }
